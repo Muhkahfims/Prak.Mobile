@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">praktikum1.2</string>
+
+    <string-array name="pilih_bangun">
+
+        <item>Bola</item>
+        <item>Kerucut</item>
+        <item>Balok</item>
+
+    </string-array>
+</resources>
