@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onepiece2"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONE PIECE"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#5499EF"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#F82545"
+            android:fontFamily="cursive"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_totalSoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Quiz 1 of 5"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/tv_soal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:gravity="center"
+            android:text="Puasa bulan Ramadhan merupakan rukun Islam ke ?"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"/>
+
+        <Button
+            android:id="@+id/btn_opsi1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Satu"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="false"
+            android:backgroundTint="#E19627"/>
+
+        <Button
+            android:id="@+id/btn_opsi2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="Dua"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="false"
+            android:backgroundTint="#E19627"/>
+
+        <Button
+            android:id="@+id/btn_opsi3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="Tiga"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="false"
+            android:backgroundTint="#E19627"/>
+
+        <Button
+            android:id="@+id/btn_opsi4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="Empat"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="false"
+            android:backgroundTint="#E19627"/>
+
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

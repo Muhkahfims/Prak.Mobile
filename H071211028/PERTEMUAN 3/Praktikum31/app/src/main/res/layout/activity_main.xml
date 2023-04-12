@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:cardCornerRadius="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="225dp"
+        app:cardBackgroundColor="#29D1D8">
+
+        <ImageView
+            android:id="@+id/profil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/user"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="#29D1D8">
+
+    <EditText
+            android:id="@+id/user"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="User"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="#29D1D8">
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Submit"/>
+
+
+</LinearLayout>

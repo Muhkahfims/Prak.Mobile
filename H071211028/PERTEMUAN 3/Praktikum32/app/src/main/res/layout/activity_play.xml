@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onepiece2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONE PIECE"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="30sp"
+            android:textColor="#5499EF"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#F82545"
+            android:fontFamily="cursive"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#454444">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/iv_profil"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="15dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:background="@color/asli"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nakama"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/tv_bestScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Best Score = 0"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:text="Play!"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@color/black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
